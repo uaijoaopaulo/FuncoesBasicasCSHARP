@@ -23,7 +23,12 @@ namespace FuncoesBasicasCSHARP
             while (!int.TryParse(codigo, out codigoN))
             {
                 Console.WriteLine("CODIGO DIGITADO NÃO É UM NUMERO INTEIRO");
-                Console.WriteLine("");
+                Console.WriteLine("1 - Exemplo 'DO' \n" +
+                "2 - Exemplo 'FOR' \n" +
+                "3 - Exemplo 'Foreach' \n" +
+                "4 - Exemplo 'While' \n" +
+                "5 - Exemplo '???' \n" +
+                "6 - Exemplo 'Maior/Menor'");
                 codigo = Console.ReadLine();
             }
             Console.Clear();
